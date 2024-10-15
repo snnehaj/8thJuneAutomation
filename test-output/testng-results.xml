@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browsertrue]]>
+    </line>
+    <line>
+      <![CDATA[Clicking Gender Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on NextButton]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Age]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Next Button]]>
+    </line>
+    <line>
+      <![CDATA[Entering pincode]]>
+    </line>
+    <line>
+      <![CDATA[Entering mobNum]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on continue button]]>
+    </line>
+    <line>
+      <![CDATA[validatePolicyCount test is running]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browsertrue]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-14T19:00:13 IST" name="Failed suite [Failed suite [Suite]]" finished-at="2024-10-14T19:00:30 IST" duration-ms="17426">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T19:00:13 IST" name="Test(failed)(failed)" finished-at="2024-10-14T19:00:30 IST" duration-ms="17426">
+      <class name="coverFox_test.TC123_CoverFox_ValidateBanner">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFox_test.TC123_CoverFox_ValidateBanner@6c40365c]" started-at="2024-10-14T19:00:13 IST" name="launchBrowser" finished-at="2024-10-14T19:00:19 IST" duration-ms="5787" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browsertrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="enterDetails()[pri:0, instance:coverFox_test.TC123_CoverFox_ValidateBanner@6c40365c]" started-at="2024-10-14T19:00:19 IST" name="enterDetails" finished-at="2024-10-14T19:00:30 IST" duration-ms="10747" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking Gender Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on NextButton]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Age]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Next Button]]>
+            </line>
+            <line>
+              <![CDATA[Entering pincode]]>
+            </line>
+            <line>
+              <![CDATA[Entering mobNum]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on continue button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method signature="validatePolicyCount()[pri:0, instance:coverFox_test.TC123_CoverFox_ValidateBanner@6c40365c]" started-at="2024-10-14T19:00:30 IST" name="validatePolicyCount" finished-at="2024-10-14T19:00:30 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatePolicyCount test is running]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePolicyCount -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:coverFox_test.TC123_CoverFox_ValidateBanner@6c40365c]" started-at="2024-10-14T19:00:30 IST" name="closingBrowser" finished-at="2024-10-14T19:00:30 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browsertrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- coverFox_test.TC123_CoverFox_ValidateBanner -->
+    </test> <!-- Test(failed)(failed) -->
+  </suite> <!-- Failed suite [Failed suite [Suite]] -->
+</testng-results>
