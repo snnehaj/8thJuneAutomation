@@ -36,7 +36,7 @@ public class Common_Methods {
 	public static String readDataFromPropertyFile(String key) throws IOException
 	{
 		Properties p =new Properties();
-		FileInputStream file = new FileInputStream("C:\\Users\\VRUSHALI\\eclipse-workspace\\AutomationSelenium\\config.properties");
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\config.properties");
 		p.load(file);
 		String value =p.getProperty(key);
 		return value;

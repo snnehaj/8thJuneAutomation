@@ -24,7 +24,7 @@ import coverFox_utility.Common_Methods;
 
 
 public class TC123_CoverFox_ValidateBanner extends Base{
-	String filePath="C:\\Users\\VRUSHALI\\eclipse-workspace\\AutomationSelenium\\ExcelData\\Test.xlsx";
+	String filePath=System.getProperty("user.dir")+"\\ExcelData\\Test.xlsx";
 	String sheetName="Sheet2";
 	CoverFox_HomePage homePage;	
 	CoverFox_HealthPlan healthPlan;
@@ -84,7 +84,7 @@ public class TC123_CoverFox_ValidateBanner extends Base{
 	  int textCount = resultsPage.resultTextCount();
 	  logger.info("Validating result");
 	  Assert.assertEquals(bannerCount, textCount,"Count is not eqaul, TC FAILED");
-	  
+	  Reporter.log("Changes made in Common_methods config file", true);
   }
   
   
