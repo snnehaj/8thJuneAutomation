@@ -86,6 +86,8 @@ public class TC123_CoverFox_ValidateBanner extends Base{
 	  Assert.assertEquals(bannerCount, textCount,"Count is not eqaul, TC FAILED");
 	  Reporter.log("Changes made in Common_methods config file", true);
 	  Reporter.log("Changes made by sneha", true);
+	  Reporter.log("Creating new Branch", true);
+	  
   }
   
   
